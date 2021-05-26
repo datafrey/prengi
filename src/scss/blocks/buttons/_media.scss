@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+  .btn {
+    width: 210px;
+    height: 52px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.07);
+    font-size: 15px;
+    &:hover {
+      box-shadow: 0 0 13px rgba(0, 0, 0, 0.7);
+    }
+    &:active {
+      box-shadow: 0 0 6px rgba(0, 0, 0, 0.07);
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .btn {
+    width: 180px;
+    height: 44px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    font-size: 14px;
+    &:hover {
+      box-shadow: 0 0 11px rgba(0, 0, 0, 0.7);
+    }
+    &:active {
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.07);
+    }
+  }
+}

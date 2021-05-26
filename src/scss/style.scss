@@ -1,0 +1,41 @@
+@import 'libs/bootstrap-grid.min';
+
+@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/animations';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+
+body {
+  display: flex;
+  flex-flow: column;
+}
+
+@import 'blocks/hat/hat';
+@import 'blocks/hat/media';
+@import 'blocks/header/header';
+@import 'blocks/header/media';
+@import 'blocks/promo/promo';
+@import 'blocks/promo/media';
+@import 'blocks/buttons/buttons';
+@import 'blocks/buttons/media';
+@import 'blocks/with-prengi/with-prengi';
+@import 'blocks/with-prengi/media';
+@import 'blocks/titles/titles';
+@import 'blocks/titles/media';
+@import 'blocks/you-will-get/you-will-get';
+@import 'blocks/you-will-get/media';
+@import 'blocks/advantages/advantages';
+@import 'blocks/advantages/media';
+@import 'blocks/data-deployment/data-deployment';
+@import 'blocks/data-deployment/media';
+@import 'blocks/start/start';
+@import 'blocks/start/media';
+@import 'blocks/footer/footer';
+@import 'blocks/footer/media';

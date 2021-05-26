@@ -1,0 +1,20 @@
+.btn {
+  width: 241px;
+  height: 60px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  background-color: $color-accent;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: 0.5s all;
+  &:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
+  }
+  &:active {
+    background-color: #0082a1;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.07);
+  }
+}

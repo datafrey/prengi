@@ -1,0 +1,58 @@
+.start {
+  order: 8;
+  padding: 80px 0;
+  &__icon-container {
+    position: relative;
+    margin: 0 auto;
+    width: 302px;
+    height: 302px;
+    border: 1px $color-accent solid;
+    border-radius: 3px;
+  }
+  &__icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    &-side-hider {
+      position: absolute;
+      background-color: #fff;
+      &:nth-child(1) {
+        width: 222px;
+        height: 1px;
+        top: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &:nth-child(2) {
+        height: 222px;
+        width: 1px;
+        right: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+      &:nth-child(3) {
+        width: 222px;
+        height: 1px;
+        bottom: -1px;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+      &:nth-child(4) {
+        height: 222px;
+        width: 1px;
+        left: -1px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+  &__title {
+    margin-top: 74px;
+  }
+  &__btn {
+    display: block;
+    margin: 30px auto 0 auto;
+    cursor: pointer;
+  }
+}

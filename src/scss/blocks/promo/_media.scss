@@ -1,0 +1,129 @@
+@media (max-width: 1199px) {
+  .promo {
+    height: 500px;
+    &__background {
+      height: 604px;
+    }
+    &__slider {
+      height: 500px;
+      &-controllers {
+        bottom: 50px;
+      }
+      &-slide {
+        height: 500px;
+        &-title {
+          top: 100px;
+        }
+        &-subtitle {
+          top: 216px;
+        }
+        &-btn {
+          top: 308px;
+        }
+        &-img {
+          position: absolute;
+          right: 15px;
+          bottom: 0;
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .promo {
+    height: 450px;
+    &__background {
+      top: -80px;
+      height: 530px;
+    }
+    &__slider {
+      height: 450px;
+      &-controllers {
+        bottom: 40px;
+      }
+      &-slide {
+        height: 450px;
+        &-title {
+          top: 70px;
+          font-size: 35px;
+          line-height: 42px;
+        }
+        &-subtitle {
+          top: 170px;
+          font-size: 20px;
+          line-height: 25px;
+        }
+        &-btn {
+          top: 245px;
+        }
+        &-img {
+          width: 270px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .promo {
+    height: 350px;
+    &__background {
+      height: 430px;
+    }
+    &__slider {
+      height: 350px;
+      &-controllers {
+        bottom: 20px;
+        justify-content: center;
+        height: 8px;
+        &-back, &-forward {
+          display: none;
+        }
+        &-indicators {
+          width: 60px;
+          height: 7px;
+        }
+        &-indicator {
+          height: 8px;
+          width: 8px;
+        }
+      }
+      &-slide {
+        height: 350px;
+        &-title {
+          top: 50px;
+          width: 300px;
+          font-size: 32px;
+          line-height: 35px;
+        }
+        &-subtitle {
+          top: 170px;
+          width: 280px;
+          font-size: 16px;
+          line-height: 21px;
+        }
+        &-btn {
+          top: 225px;
+        }
+        &-img {
+          width: 200px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .promo {
+    order: 2;
+    &__slider {
+      &-slide {
+        &-img {
+          display: none;
+        }
+      }
+    }
+  }
+}

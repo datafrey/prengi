@@ -1,0 +1,56 @@
+.advantages {
+  order: 6;
+  padding: 80px 0;
+  &__title {
+    margin: 0 auto;
+    width: 376px;
+  }
+  &__items {
+    margin-top: 44px;
+    display: grid;
+    grid-template: repeat(3, 355px) / 50% 50%;
+  }
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    &:nth-child(1) {
+      background: url('../img/bg/advantages/item1_bg.jpg') center (center / cover) no-repeat;
+    }
+    &:nth-child(2) {
+      background: url('../img/bg/advantages/item2_bg.jpg') center (center / cover) no-repeat;
+    }
+    &:nth-child(3) {
+      background: url('../img/bg/advantages/item3_bg.jpg') center (center / cover) no-repeat;
+    }
+    &:nth-child(4) {
+      background: url('../img/bg/advantages/item4_bg.jpg') center (center / cover) no-repeat;
+    }
+    &:nth-child(5) {
+      background: url('../img/bg/advantages/item5_bg.jpg') center (center / cover) no-repeat;
+    }
+    &:nth-child(6) {
+      background: url('../img/bg/advantages/item6_bg.jpg') center (center / cover) no-repeat;
+    }
+    &-substrate {
+      width: 100%;
+      height: 156px;
+      background-color: #000000;
+      opacity: 0.44;
+    }
+    &-text {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translateX(-50%) translateY(-50%);
+      width: 100%;
+      color: #fff;
+      font-size: 23px;
+      font-weight: 400;
+      line-height: 26px;
+      text-align: center;
+    }
+  }
+}

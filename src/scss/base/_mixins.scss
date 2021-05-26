@@ -1,0 +1,29 @@
+@mixin before_square($w: 167px, $h: 167px, $l: -35px) {
+  &::before {
+    content: '';
+    position: absolute;
+    left: $l;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $w;
+    height: $h;
+    background-color: $color-accent;
+    opacity: 0.3;
+    z-index: -1;
+  }
+}
+
+@mixin after_square($w: 167px, $h: 167px) {
+  &::before {
+    content: '';
+    position: absolute;
+    right: -39px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: $w;
+    height: $h;
+    background-color: $color-accent;
+    opacity: 0.3;
+    z-index: -1;
+  }
+}

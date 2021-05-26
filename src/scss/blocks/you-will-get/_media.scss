@@ -1,0 +1,147 @@
+@media (max-width: 1199px) {
+  .you-will-get {
+    &__slider {
+      height: 473px;
+      &-inner {
+        width: 800px;
+      }
+      &-slide {
+        width: 800px;
+        &-img {
+          width: 800px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 991px) {
+  .you-will-get {
+    padding: 60px 0 50px 0;
+    &__title {
+      width: 525px;
+    }
+    &__tabs {
+      padding: 0 20px;
+      width: 690px;
+      height: 50px;
+    }
+    &__tab {
+      font-size: 13px;
+      &::after {
+        height: 40px;
+        right: -20px;
+      }
+    }
+    &__slider {
+      height: 355px;
+      &-inner {
+        width: 600px;
+        height: 355px;
+      }
+      &-slide {
+        width: 600px;
+        &-img {
+          width: 600px;
+        }
+      }
+      &-back, &-forward {
+        top: 130px;
+        height: 50px;
+        width: 15px;
+        img {
+          height: 50px;
+          width: 15px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 767px)  {
+  .you-will-get {
+    padding: 40px 0 35px 0;
+    &__title {
+      width: 400px;
+    }
+    &__tabs {
+      padding: 0 10px;
+      width: 100%;
+      height: 40px;
+    }
+    &__tab {
+      height: 100%;
+      font-size: 11px;
+      line-height: 37px;
+      &::after {
+        height: 33px;
+        right: -10px;
+      }
+    }
+    &__slider {
+      width: 100%;
+      height: 306px;
+      &-inner {
+        width: 100%;
+        height: 306px;
+      }
+      &-slide {
+        width: 100%;
+        &-img {
+          width: 100%;
+        }
+      }
+      &-back, &-forward {
+        display: none;
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .you-will-get {
+    order: 4;
+    padding: 20px 0 17px 0;
+    &__title {
+      width: 100%;
+    }
+    &__tabs {
+      width: 180px;
+    }
+    &__tab {
+      display: none;
+      &::after {
+        content: none;
+      }
+      &_active {
+        display: block;
+        width: 100%;
+        color: #fff;
+        font-size: 13px;
+        text-align: center;
+        pointer-events: none;
+        animation: tabAppearance .5s ease;
+      }
+    }
+    &__slider {
+      margin-left: auto;
+      margin-right: auto;
+      width: 270px;
+      height: 164px;
+      &-inner {
+        width: 270px;
+        height: 164px;
+      }
+      &-back, &-forward {
+        display: block;
+        top: -74px;
+        height: 40px;
+        width: 40px;
+        img {
+          height: 37px;
+          width: 11px;;
+        }
+      }
+    }
+  } 
+}
